@@ -56,7 +56,9 @@ Al finalizar el curso el alumno estar√° habilitado para realizar aplicaciones b√
         'imagenes\random5.jpg',
         'imagenes\random6.jpg',
         'imagenes\random7.jpg',
-        'imagenes\random8.jpg',        
+        'imagenes\random8.jpg',
+        'imagenes\_random6.jpg',
+        'imagenes\__random.jpg',        
     );
 
     shuffle($images);
