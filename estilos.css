@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #E3E3E6;
+	margin:0;
+
+	}
+
+#contenedor {
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+
+header {
+	height:290px;
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	color:#333;
+	
+	}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+	}
+#botonera_principal {
+	width:940px;
+	height:70px;
+	border-left: 20px solid #80C141;
+	background-color:#FFF;
+	}
+
+#botonera_principal ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+
+#botonera_principal ul li {
+	display: inline;
+}
+
+#botonera_principal ul li a {
+	display: inline-block;
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+	border-right:1px dotted #CCC;
+	width: 187px;
+	height: 70px;
+	line-height: 70px;
+	
+	}
+	
+#botonera_principal ul li a:hover {
+	background-color:#80C141;
+	}
+	
+#marca {
+	background-image:url(imagenes/fondo_marca.jpg);
+	height:200px;
+	padding-top:27px;
+	border-left:solid 20px #333;
+
+	}
+
+#contenido {
+	padding:20px;
+	background-color:#FFF;
+	border-left: 20px solid #80C141;
+	
+	
+	}
+
+h2 {
+	color:#666;}
+
+footer {
+	background-color:#80C141;
+	padding:20px;
+	border-left: 20px solid #333;
+
+	}
+
+footer a {
+	color:#FFF;
+	font-weight:bold;}
+
+#botonera_catalogo ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+#botonera_catalogo ul li {
+	display: inline;
+}
+
+#botonera_catalogo ul li a{
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	background-color: rgb(235, 212, 181);
+	margin-bottom: 10px;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#botonera_catalogo ul li a:hover {
+	background-color: aquamarine;
+	color: #333;
+}
+
+#unidad_6 {
+	text-align: center;
+	padding:20px;
+	background-color: rgb(216, 209, 209);
+	border: 50px solid rgb(93, 95, 90);
+}
+
+#botonera_index ul {
+	margin: 20px;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+#botonera_index ul li {
+	display: inline;
+}
+
+#botonera_index ul li a{
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	background-color: rgb(247, 54, 6);
+	margin-bottom: 10px;
+	color: rgb(248, 244, 244);
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#botonera_index ul li a:hover {
+	background-color: rgb(197, 114, 204);
+	color: #333;
+}
+
+.grid { 
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-gap: 20px;
+	align-items: stretch;
+	margin-bottom: 20px;
+	}
+
+.grid img {
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+	max-width: 100%;
+  }
+
+input [type="submit"] {
+	width: 20%;
+	float: right;
+}
